@@ -1,0 +1,282 @@
+package task9new;
+
+import java.util.Scanner;
+
+public class Q1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a ="Wow" , reversea="";
+		int aLength = a.length();
+		
+		for(int i= (aLength - 1); i>=0; --i)
+		{
+			reversea =reversea + a.charAt(i);
+		}
+		
+		if (a.toLowerCase().equals(reversea.toLowerCase()))
+		{
+			System.out.println(a +   " is a palindrome");
+		}
+		
+		else
+		{
+			System.out.println(a +   " is not a palindrome");
+		}
+    	
+     }
+   
+	}
+
+
+o/p
+Wow is a palindrome
+
+package task9new;
+
+public class Q2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a ="swap" , reversea="";
+		int aLength = a.length();
+		
+		for(int i= (aLength - 1); i>=0; --i)
+			
+		{
+			reversea =reversea + a.charAt(i);
+			
+		}
+		System.out.println(reversea);
+	}
+
+}
+o/p
+paws
+
+package task9new;
+
+public class Q3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int num=1;
+int i,j;
+
+for(i=1;i<=4;i++)
+{
+	for (j=1;j<=i;j++)
+	{
+		System.out.print (num +" ");
+		num++;
+	}
+			System.out.println();
+		
+	
+}
+	}
+
+}
+o/p
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+package task9new;
+
+public class Q4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char a = '*';
+		  
+		System.out.print("   ");
+		  System.out.print(a);
+		  System.out.print(" ");
+		  System.out.println(a);
+		char b = '*';
+		  
+		System.out.print("   ");
+		System.out.print(b);
+		System.out.println(b);
+		
+		 a = '*';
+		 System.out.print("    ");
+		 System.out.println(a);
+		 
+		 b = '*';
+		  
+		 System.out.print("   ");
+			System.out.print(b);
+			System.out.println(b);
+			
+			a = '*';
+			  
+			System.out.print("   ");
+			  System.out.print(a);
+			  System.out.print(" ");
+			  System.out.println(a);
+			
+		 
+		  
+		
+		
+		
+	}
+
+
+	}
+
+
+o/p
+   * *
+   **
+    *
+   **
+   * *
+
+package task9new;
+
+import java.util.Scanner;
+
+public class Q5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a =65;
+		  if ( a ==100)
+		  {
+			  System.out.println("S");
+		  }
+		  else if (a>=90 && a<=99)
+		  {
+			  System.out.println("A");
+		  }
+		  else if (a>=80 && a<=89)
+		  {
+			  System.out.println("B");
+		  }
+		  else if (a>=70 && a<=79)
+		  {
+			  System.out.println("C");
+		  }
+		  else if (a>=60 && a<=69)
+		  {
+			  System.out.println("D");
+		  }
+		  else if (a>=50 && a<=59)
+		  {
+			  System.out.println("E");
+		  }
+		  else if (a<50)
+		  {
+			  System.out.println("F");
+		  }
+		  else
+		  {
+		  System.out.println("invalid input");
+		  }
+}
+}
+
+	
+o/p
+D
+
+package task9new;
+
+
+public class Q6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int month=3;
+		int days=2;
+		float rent=1500;
+        double  t;
+		
+		switch(month) {
+		case 1:
+			t=rent*days;
+		System.out.println( t);
+		break;
+		case 2:
+			t=rent*days;
+		System.out.println( t);
+		break;
+		case 3:
+			t=rent*days;
+		System.out.println(t);
+		break;
+		case 4:
+			t=((rent+(rent*0.2))*days);
+		System.out.println( t);
+		break;
+		case 5:
+			t=((rent+(rent*0.2))*days);
+			System.out.println( t);
+		break;
+		case 6:
+			t=((rent+(rent*0.2))*days);
+		System.out.println( t);
+		break;
+		case 7:
+			t=rent*days;
+		System.out.println( t);
+		break;
+		case 8:
+			t=rent*days;
+		System.out.println( t);
+		break;
+		case 9:
+			t=rent*days;
+		System.out.println( t);
+		break;
+		case 10:
+			t=rent*days;
+		System.out.println( t);
+		break;
+		case 11:
+			t=((rent+(rent*0.2))*days);
+		System.out.println( t);
+		break;
+		case 12:
+			t=((rent+(rent*0.2))*days);
+		System.out.println( t);
+		break;
+			
+		 default :
+   	    System.out.println("invalid input");
+   		  break;
+
+		}}}
+
+
+o/p
+3000.0
+
+package task9new;
+
+public class Q7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n=7,n2=5,n3=6;
+		
+		if(n>=n2 && n>=n3)
+			System.out.println(n +"is the largest number");
+		
+		else if (n2>=n && n2>=n3)
+			System.out.println(n2 +"is the largest number");
+		else 
+			
+			System.out.println(n3 +"is the largest number");
+
+			
+	}
+
+}
+o/p
+7is the largest number
